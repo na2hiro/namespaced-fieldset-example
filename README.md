@@ -1,4 +1,4 @@
-# `namespaced-fieldset` demo
+# `namespaced-fieldset` Examples
 
 This repo demonstrates the usage of [na2hiro/namespaced-fieldset](https://github.com/na2hiro/namespaced-fieldset)
 
