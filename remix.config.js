@@ -11,6 +11,6 @@ module.exports = {
     // serverBuildPath: "build/index.js",
     // publicPath: "/build/",
     serverDependenciesToBundle: [
-        "namespaced-inputs"
+        "namespaced-fieldset"
     ]
 };
