@@ -1,8 +1,8 @@
 import {Form, useActionData} from "@remix-run/react";
-import {constructFromFormData, constructFromQueryString, Fieldset, Input} from "namespaced-inputs";
+import {constructFromFormData, constructFromQueryString, Fieldset, Input} from "namespaced-fieldset";
 import React, {useState} from "react";
-import {ActionFunction} from "@remix-run/node";
 import {Code, H3} from "~/components/decorated-elements";
+import {ActionFunction} from "@remix-run/cloudflare";
 
 export const action: ActionFunction = async ({request}) => {
     const text = await request.text();

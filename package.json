@@ -14,9 +14,9 @@
     "start": "cross-env NODE_ENV=production miniflare ./build/index.js"
   },
   "dependencies": {
-    "@remix-run/cloudflare": "^1.3.5",
-    "@remix-run/cloudflare-workers": "^1.3.5",
-    "@remix-run/react": "^1.3.5",
+    "@remix-run/cloudflare": "^1.4.0",
+    "@remix-run/cloudflare-workers": "^1.4.0",
+    "@remix-run/react": "^1.4.0",
     "cross-env": "^7.0.3",
     "namespaced-fieldset": "^0.0.1",
     "react": "^17.0.2",
@@ -25,7 +25,7 @@
   "devDependencies": {
     "@cloudflare/workers-types": "^3.4.0",
     "@remix-run/dev": "^1.4.0",
-    "@remix-run/eslint-config": "^1.3.5",
+    "@remix-run/eslint-config": "^1.4.0",
     "@types/react": "^17.0.24",
     "@types/react-dom": "^17.0.9",
     "eslint": "^8.11.0",
