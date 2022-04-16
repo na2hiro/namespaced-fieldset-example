@@ -1,10 +1,12 @@
-name = "remix-cloudflare-workers"
+name = "namespaced-fieldset-example"
 type = "javascript"
 
 zone_id = ""
 account_id = ""
 route = ""
 workers_dev = true
+
+compatibility_date = "2022-04-16"
 
 [site]
 bucket = "./public"

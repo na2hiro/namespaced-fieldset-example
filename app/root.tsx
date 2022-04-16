@@ -29,7 +29,7 @@ export const meta: MetaFunction = () => ({
 const BoldNavLink: React.FC<{ to: string }> = ({to, children}) => {
     return <NavLink to={to} style={({isActive}) => ({
         fontWeight: isActive ? "bold" : "normal",
-    })}>{children}</NavLink>
+    })} prefetch="intent">{children}</NavLink>
 }
 
 export default function App() {
